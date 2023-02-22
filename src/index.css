@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  /* background-color: #c5c5c5; */
+}
+/* **************************************** */
+/* GENERAL REUSABLE COMPONENTS */
+/* **************************************** */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-top: 3.2rem;
+  /* margin: 0 9.6rem; */
+  /* border-radius: 12px; */
+  /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25); */
+}
+
+.heading {
+  /* font-weight: 600; */
+  color: #595959;
+  /* letter-spacing: -0.5px; */
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  text-align: center;
+  /* margin-bottom: 3.2rem; */
+  /* padding: 4.6rem; */
+}
